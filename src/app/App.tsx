@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className={classNames('app', { hovered: true, selected: false }, [theme, 'cls2', 'cls3'])}>
       <Navbar />
-      <div>
+      <div className='content-page'>
         <Sidebar/>
         <AppRouter />
       </div>
